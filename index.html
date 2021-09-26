@@ -9,8 +9,8 @@
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="range"  id="rate" min="minval" max="maxval" value="default_val">  <br/>
-        <span id="rate_val" onchange="updateRate()">10.25%</span>
+        Rate <input type="range"  id="rate" min="minval" max="maxval" value="default_val">  
+        <span id="rate_val" onchange="updateRate()">10.25%</span><br/>
         No. of Years <select id ="years">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -21,13 +21,11 @@
             <option value="7">7</option>
             <option value="8">8</option>
             <option value="9">9</option></select>  <br/>
-        Interest : <span id="result"></span><br>
-
         <button onclick="compute()">Compute Interest</button>
         <span id="result"></span>
         </div>
     </body>
-    <footer>
+    <footer class="footer1">
         &#169; This Calculator belongs to Keerthana!
     </footer>
 </html>
